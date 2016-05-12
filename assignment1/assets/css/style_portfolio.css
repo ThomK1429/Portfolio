@@ -1,0 +1,46 @@
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+
+}
+
+/* Image normal size is @ height200px, and width 250px 
+ 
+*/
+
+#img_container1{
+float:left;
+    padding-top: 1px;
+
+    width:200px;
+    height:250px;
+
+}
+
+
+#img_container2{
+float:right;
+    padding-top: 1px;
+
+    width:200px;
+    height:250px;
+}
+
+
+#img_container3{
+float:left;
+    padding-top: 25px;
+
+    width:200px;
+    height:250px;
+
+}
+
+
+#img_container4{
+float:right;
+    padding-top: 25px;
+    width:200px;
+    height:250px;
+}
