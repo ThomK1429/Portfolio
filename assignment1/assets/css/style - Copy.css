@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+/* .tcenter-block {
+   margin: 0 auto;
+	padding-top: 38px;
+	/* background-color: lightgreen; */
+}*/
+
+
+
+
+
+.navbar-brand{
+
+ 	width:220px;  
+	background-color: #4aaaa5;
+	
+	text-align: center;
+	padding: 14px 14px;	/* pad top/bottom */
+
+	font-size: 22px;  /* 50px total for brand */
+	/* color: #fff;    this does not work */
+}
+
+.navbar-brand#logo{
+	color:#fff;
+}
+
+
+
+
+
+.panel-footer{
+	clear: both;
+	position:absolute;
+	bottom:0;
+
+	width: 100%;
+	background: #666;
+
+	text-align: center;
+	padding: 19px 19px;	/* pad top/bottom */
+
+	font-size: 12px;  /* 50px total for brand */
+	color: white;
+
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	border-top-style: solid;
+}
+
+
+@media screen and (max-width: 980px) {
+	.navbar-brand{
+		background-color: yellow;
+	}
+}
+ 
+@media screen  and (max-width: 768px) {
+	.navbar-brand{
+		background-color: red;
+	}
+}
+
+@media screen  and (max-width: 640px) {
+	.navbar-brand{
+		background-color: blue;
+	}
+}
+
+/* This code works also */
+/* @media screen  and (min-width: 769px) and (max-width: 980px) {
+	.navbar-brand{
+		background-color: yellow;
+	}
+}
+ 
+@media screen and (min-width: 641px) and (max-width: 768px) {
+	.navbar-brand{
+		background-color: red;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 640px) {
+	.navbar-brand{
+		background-color: blue;
+	}
+} */
