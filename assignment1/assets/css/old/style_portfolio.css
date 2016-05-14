@@ -1,0 +1,65 @@
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+
+}
+
+/* Image normal size is @ height200px, and width 250px 
+ 
+*/
+
+#img_size{
+
+
+    width:225px;
+    height:180px;
+
+}
+
+
+
+.col-md-8{
+
+    padding-top: 50px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@media screen and (max-width: 980px) {
+    .navbar-brand{
+        background-color: yellow;
+    }
+
+    .navbar-brand#logo{
+        color:lightgray;
+    }
+
+        #about_picture{
+        width:170px;
+        height:188px;
+    }
+}
+ 
+@media screen  and (max-width: 768px) {
+    .navbar-brand{
+        background-color: red;
+    }
+    .navbar-brand#logo{
+        color:white;
+    }
+    #about_picture{
+        width:150px;
+        height:162px;
+    }
+}
+
+@media screen  and (max-width: 640px) {
+    .navbar-brand       { background-color: purple; }
+    .navbar-brand#logo  { color:white; }
+    #about_picture      { width:120px; height:125px; }
+    #img_size           { height:35%; width:35%; }
+
+
+
+}

@@ -91,8 +91,8 @@ body {
 }
 
 
-/* Note: this is working at the header level, 
-not at the bootstap column level */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 
 @media screen and (max-width: 980px) {
 	.navbar-brand{
@@ -124,7 +124,7 @@ not at the bootstap column level */
 
 @media screen  and (max-width: 640px) {
 	.navbar-brand{
-		background-color: blue;
+		background-color: purple;
 	}
 	.navbar-brand#logo{
 		color:white;
@@ -151,6 +151,6 @@ not at the bootstap column level */
 
 @media screen and (min-width: 1px) and (max-width: 640px) {
 	.navbar-brand{
-		background-color: blue;
+		background-color: purple;
 	}
 } */

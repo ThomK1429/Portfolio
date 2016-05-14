@@ -1,6 +1,43 @@
 /* style_contact.css */
 
 
+body {
+    background-image: url("../images/concrete_seamless.png"); 
+    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+.navbar-brand{
+
+    width:220px;  
+    background-color: #4aaaa5;
+    
+    text-align: center;
+    padding: 14px 14px; /* pad top/bottom */
+
+    font-size: 22px;  /* 50px total for brand */
+    /* color: #fff;    this does not work */
+}
+
+.navbar-brand#logo{
+    color:#fff;
+    font-size: 20px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#portfolio_hdr{
+    font-size: 26px;
+    color: #4aaaa5;
+    color: blue;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 #content_area{
 	padding-left: 30px;
 }
@@ -28,4 +65,160 @@
 	color: #fff;
 	background-color: #4aaaa5;
 	padding: 5px 15px 5px 15px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#portfolio, #connect {
+
+    background-color: #fff;   /* white */
+    
+        padding: 20px 20px 25px 25px;
+        margin: center;
+
+}
+
+#portfolio_hdr{
+    font-size: 26px;
+    color: #4aaaa5;
+    color: blue;
+
+}
+
+#port_row2{
+   padding-top: 25px; 
+
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#connect{
+    padding: 20px 20px 20px 25px;
+}
+
+
+#connect_me_hdr{
+    font-size: 20px;
+    color: #4aaaa5;
+    color: blue;    /* tk delete when done */
+}
+
+#connect_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.panel-footer{
+    clear: both;
+    position:absolute;
+    bottom:0;
+
+    width: 100%;
+    background: #666;
+
+    text-align: center;
+    padding: 19px 19px; /* pad top/bottom */
+
+    font-size: 12px;  /* 50px total for brand */
+    color: white;
+
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@media screen and (max-width: 980px) {
+    .navbar-brand{
+        background-color: yellow;
+    }
+
+    .navbar-brand#logo{
+        color:lightgray;
+    }
+
+    #about_picture{
+        width:170px;
+        height:188px;
+    }
+
+    #img_size           { height:35%; width:35%; }
+
+    .container {
+        padding-top:25px;
+        padding-left: 75px;
+    }
+
+	#nameb{width: 98%;}
+
+	#emailb{width: 98%;}
+
+	#messageb{
+		width: 98%;
+		height: 200px;
+	}
+
+}
+ 
+@media screen  and (max-width: 768px) {
+    .navbar-brand{
+        background-color: red;
+    }
+    .navbar-brand#logo{
+        color:white;
+    }
+    #about_picture{
+        width:150px;
+        height:162px;
+    }
+
+    #img_size           { height:35%; width:35%; }
+
+    .container {
+        padding-top:25px;
+        padding-left:75px;
+    }
+
+	#nameb{width: 98%;}
+
+	#emailb{width: 98%;}
+
+	#messageb{
+		width: 98%;
+		height: 200px;
+	}
+
+}
+
+@media screen  and (max-width: 640px) {
+    .navbar-brand       { background-color: purple; }
+    .navbar-brand#logo  { color:white; }
+    #about_picture      { width:120px; height:125px; }
+    #img_size           { height:35%; width:35%; }
+
+    .container {
+        padding-top:25px;
+        padding-left:55px;
+    }
+
+	#nameb{width: 98%;}
+
+	#emailb{width: 98%;}
+
+	#messageb{
+		width: 98%;
+		height: 200px;
+	}
+
 }
