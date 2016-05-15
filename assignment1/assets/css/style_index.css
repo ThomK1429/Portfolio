@@ -1,5 +1,3 @@
-/* style_contact.css */
-
 
 body {
     background-image: url("../images/concrete_seamless.png"); 
@@ -28,50 +26,16 @@ body {
     font-size: 20px;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-#portfolio_hdr{
-    font-size: 26px;
-    color: #4aaaa5;
-    color: blue;
-}
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-#content_area{
-	padding-left: 30px;
-}
-
-#name, #email, #message, #submit{
-	padding-top: 15px;
-}
-
-#nameb{width: 600px}
-
-#emailb{width: 600px}
-
-#messageb{
-	width: 600px;
-	height: 200px;
-	
-}
-
-
-#submit{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-#submitb{
-	color: #fff;
-	background-color: #4aaaa5;
-	padding: 5px 15px 5px 15px;
-}
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.container {
+    padding-top: 20px;
+    /*padding-bottom: 20px;    /* tk does this do anything */
+    /* height: auto; */
 
-#portfolio, #connect {
+
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#about_me, #connect {			/* tk update/about_me */
 
     background-color: #fff;   /* white */
     
@@ -80,19 +44,35 @@ body {
 
 }
 
-#portfolio_hdr{
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#about_me{
+	background-color: #fff;
+	font-size: 12px;
+	color: #777;
+	padding: 20px 20px 20px 20px;
+	border-left: 20px;
+	border-width: 20px;
+}
+
+#about_me_hdr{
     font-size: 26px;
     color: #4aaaa5;
-    color: blue;
-
+    color: blue;  /* tk remove */
 }
 
 
+#about_picture{
+	float: left;
+	width:220px;
+	height:254px;
+	padding-right: 20px
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #connect{
-    padding: 20px 20px 20px 25px;
+    padding: 20px 20px 20px 25px; /* tk dup */
 }
 
 
@@ -109,6 +89,9 @@ body {
 
 
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -116,7 +99,6 @@ body {
     clear: both;
     position:absolute;
     bottom:0;
-    margin: 0 auto;
 
     width: 100%;
     background: #666;
@@ -130,12 +112,6 @@ body {
     border-top-color: #4aaaa5;
     border-top-width: 5px;
     border-top-style: solid;
-
-    /*width: 100%;
-    z-index:999;
-    bottom:0;
-    clear:both;
-    position:fixed; */
 }
 
 
@@ -160,17 +136,10 @@ body {
 
     .container {
         padding-top:25px;
-        padding-left: 75px;
+        padding-left:110px;
     }
 
-	#nameb{width: 98%;}
 
-	#emailb{width: 98%;}
-
-	#messageb{
-		width: 98%;
-		height: 200px;
-	}
 
 }
  
@@ -190,17 +159,8 @@ body {
 
     .container {
         padding-top:25px;
-        padding-left:75px;
+        padding-left:109px;
     }
-
-	#nameb{width: 98%;}
-
-	#emailb{width: 98%;}
-
-	#messageb{
-		width: 98%;
-		height: 200px;
-	}
 
 }
 
@@ -212,16 +172,15 @@ body {
 
     .container {
         padding-top:25px;
-        padding-left:55px;
+        padding-left:100px;
     }
 
-	#nameb{width: 98%;}
+}
 
-	#emailb{width: 98%;}
-
-	#messageb{
-		width: 98%;
-		height: 200px;
-	}
+/* to correct between bootstrap and spec column width */
+@media screen and (min-width: 981px) and (max-width: 991px) {
+    .container {
+        padding-left:135px;
+    } 
 
 }
