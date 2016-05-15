@@ -6,8 +6,6 @@ body {
     font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
@@ -33,7 +31,7 @@ body {
 #portfolio_hdr{
     font-size: 26px;
     color: #4aaaa5;
-    color: blue;
+ 
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -83,7 +81,7 @@ body {
 #portfolio_hdr{
     font-size: 26px;
     color: #4aaaa5;
-    color: blue;
+     
 
 }
 
@@ -98,8 +96,7 @@ body {
 
 #connect_me_hdr{
     font-size: 20px;
-    color: #4aaaa5;
-    color: blue;    /* tk delete when done */
+    color: #4aaaa5;  
 }
 
 #connect_links{

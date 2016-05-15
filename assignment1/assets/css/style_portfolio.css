@@ -30,17 +30,9 @@ body {
 
 .container {
     padding-top: 20px;
-    /*padding-bottom: 20px;    /* tk does this do anything */
-    /* height: auto; */
-
 
 }
 
-
-/*.col-md-8 {
-
-    padding-top: 10px;
-} */
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -56,7 +48,7 @@ body {
 #img_size{
 
     width:225px;
-    height:180px;   /* tk put back to 180px */
+    height:180px;   
 
 }
 
@@ -74,8 +66,7 @@ body {
 #portfolio_hdr{
     font-size: 26px;
     color: #4aaaa5;
-    color: blue;
-
+     
 }
 
 #port_row2{
@@ -88,14 +79,14 @@ body {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #connect{
-    padding: 20px 20px 20px 25px; /* tk dup */
+    padding: 20px 20px 20px 25px; /* tk adj */
 }
 
 
 #connect_me_hdr{
     font-size: 20px;
     color: #4aaaa5;
-    color: blue;    /* tk delete when done */
+     
 }
 
 #connect_links{
